@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranosys.encryptiondecryptiondemo.AesDescriptionSample">
+
+    <EditText
+        android:id="@+id/et_encrypt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="type meesage to encrypt"
+         />
+
+    <Button
+        android:id="@+id/btn_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_encrypt_message"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="encrypt message" />
+
+    <TextView
+        android:id="@+id/tv_encrypted_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/btn_encrypt"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/btn_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_encrypted_message"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="decrypt message"
+        />
+
+    <TextView
+        android:id="@+id/tv_decrypt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/btn_decrypt"
+        android:text=""
+        />
+</RelativeLayout>
+</ScrollView>
+

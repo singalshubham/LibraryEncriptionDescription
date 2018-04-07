@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EncryptionDecryptionDemo</string>
+    <string name="aes_encryption_decryption">AES Encryption and decryption</string>
+    <string name="rsa_encryption_decryption">RSA Encryption and decryption</string>
+</resources>
